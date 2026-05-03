@@ -27,6 +27,10 @@ class LoveGuruController extends Controller
             'next_step' => 'Send one calm message, then watch whether their actions match their words.',
         ];
 
+        if ($request->user()) {
+            $request->user()->increment('message_assists_count');
+        }
+
         return response()->json([
             'data' => $guru->chat([
                 'message' => $validated['message'],

@@ -131,8 +131,17 @@ class SlayProfileController extends Controller
             'scores' => $fallback['scores'],
         ], $fallback);
 
+        $finalData = $aiResult ?? $fallback;
+
+        if ($request->user()) {
+            $request->user()->datingKits()->create([
+                'name' => 'Dating Kit - ' . now()->format('M j'),
+                'data' => $finalData,
+            ]);
+        }
+
         return response()->json([
-            'data' => $aiResult ?? $fallback,
+            'data' => $finalData,
         ]);
     }
 
