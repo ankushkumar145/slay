@@ -16,10 +16,10 @@ import { defaultAnswers, quickQuestions } from './src/utils';
 
 const emptyProfile = {
   age: '',
-  goal: 'better_matches',
+  goal: 'better_networking',
   current_bio: '',
-  target_match: 'emotionally_available',
-  export_style: 'hinge',
+  target_match: 'industry_leaders',
+  export_style: 'linkedin',
 };
 
 export default function App() {

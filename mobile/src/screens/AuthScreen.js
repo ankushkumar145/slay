@@ -31,7 +31,7 @@ export function AuthScreen({ onSubmit, error, setError }) {
     <ScrollView contentContainerStyle={styles.screen}>
       <View style={styles.authHero}>
         <Text style={styles.logoLarge}>SLAY</Text>
-        <Text style={styles.title}>Your dating profile workspace.</Text>
+        <Text style={styles.title}>Your profile building workspace.</Text>
         <Text style={styles.body}>Sign in, build a real profile, then run clean AI analysis from the dashboard.</Text>
       </View>
 

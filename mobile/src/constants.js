@@ -23,23 +23,23 @@ export const fallbackQuestions = [
 ];
 
 export const goals = [
-  ['better_matches', 'Better matches'],
-  ['more_matches', 'More matches'],
-  ['less_dry', 'Less dry chats'],
+  ['better_networking', 'Better networking'],
+  ['more_connections', 'More connections'],
+  ['meaningful_chats', 'Meaningful chats'],
   ['confidence', 'Confidence'],
 ];
 
 export const targetMatches = [
-  ['emotionally_available', 'Emotionally available'],
-  ['serious_relationship', 'Serious relationship'],
-  ['playful_dating', 'Playful dating'],
-  ['ambitious_partner', 'Ambitious partner'],
-  ['soft_romantic', 'Soft romantic'],
+  ['industry_leaders', 'Industry leaders'],
+  ['long_term_collaborators', 'Long-term collaborators'],
+  ['creative_peers', 'Creative peers'],
+  ['ambitious_founders', 'Ambitious founders'],
+  ['mentors', 'Mentors'],
 ];
 
 export const exportStyles = [
-  ['hinge', 'Hinge'],
-  ['bumble', 'Bumble'],
-  ['tinder', 'Tinder'],
-  ['instagram', 'Instagram'],
+  ['linkedin', 'LinkedIn'],
+  ['twitter', 'Twitter'],
+  ['github', 'GitHub'],
+  ['personal_site', 'Personal Site'],
 ];
